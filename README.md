@@ -9,6 +9,8 @@ This is a docker image to create contact image sheets
 `docker run --rm -v DIR:/video --user $(id -u ):$(id -g) vcs vcs -H 250 -n 12 -c 3 <FILE>`
 
 ### batch
+Use this, if the folder has multiple files, and you want to generate contact sheets for all the files.
+
 currently looks for mp4, avi, wmv, mkv and flv files
 
 `docker run --rm -v DIR:/video --user $(id -u):$(id -g) vcs vcs-batch` 
