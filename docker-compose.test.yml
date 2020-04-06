@@ -1,5 +1,0 @@
----
-
-sut:
-  build: .
-  command: vcs -h
