@@ -1,0 +1,7 @@
+cd /video
+mkdir contactsheet
+for file in *.{mp4,avi,wmv,mkv,flv}
+do
+    [[ ! -e "$file" ]] && continue
+    vcs -H 250 -c 3 -n 12 -o contactsheet/"$file.jpg" "$file"
+done
