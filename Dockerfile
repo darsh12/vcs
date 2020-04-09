@@ -1,4 +1,5 @@
 FROM ubuntu
+LABEL maintainer="darsh12"
 
 ENV term=XTERM
 RUN apt-get update -y && apt-get upgrade -y
