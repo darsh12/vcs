@@ -1,4 +1,6 @@
 # video-contact-sheet
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdarsh12%2Fvcs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdarsh12%2Fvcs?ref=badge_shield)
+
 
 This is a docker image to create contact image sheets 
 
@@ -17,3 +19,7 @@ currently looks for mp4, avi, wmv, mkv and flv files
 
 ## source
 https://p.outlyer.net/vcs
+
+
+## License
+MIT
